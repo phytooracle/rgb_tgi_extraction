@@ -2,7 +2,7 @@
 """
 Author : Emmanuel Gonzalez 
 Date   : 2021-08-08
-Purpose: TGI extraction of plot clipped images
+Purpose: TGI extraction of plot clipped images (drone and gantry)
 """
 
 import argparse
