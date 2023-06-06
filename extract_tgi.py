@@ -112,7 +112,7 @@ def collect_tgi(plot):
     mean, median, q1, q3, var, sd = get_stats(tgi)
     plot_num = plot.split('/')[-2]
     test = plot.split('/')[-1].split('_')[:3]
-    date = '-'.join(test)
+    # date = '-'.join(test)
 
     green_dict[cnt] = {
         'date': date,
@@ -151,6 +151,7 @@ def main():
 
     try:
         match = re.search(r'\d{4}-\d{2}-\d{2}', args.dir)
+        global date
         date = datetime.strptime(match.group(), '%Y-%m-%d').date()
     
     except:
