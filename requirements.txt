@@ -1,8 +1,8 @@
 GDAL==3.0.4
 rasterio==1.1.8
 numpy==1.19.1
-matplotlib
-opencv-python-headless
-tifffile
-pandas
+matplotlib==3.4.2
+opencv-python-headless==4.5.3
+tifffile==2021.7.2
+pandas==1.3.0
 geopandas==0.7.0
